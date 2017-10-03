@@ -1,18 +1,43 @@
-# Calidad Aire
-
-
+# Medida de Calidad Aire
 
 ## Parque de las Ciencias
 ## Ciencia de cerca
 
+![montaje1](./imagenes/montaje1.jpg)
+
+
+
 ## Componentes
+
+### Sensor de Gas MQ135
+
+![MQ135](./imagenes/ma135.jpg)
+
+
+Estos sensores de gases son electroquímicos y varían su resistencia cuando se exponen a determinados gases, internamente posee un calentador encargado de aumentar la temperatura interna y con esto el sensor pueda reaccionar con los gases provocando un cambio en el valor de la resistencia.
+
+Debido al calentador es necesario esperar un tiempo de calentamiento para que la salida sea estable y tenga las características que el fabricante muestra en sus datasheet, dicho tiempo dependiendo del modelo puede ser entre 12 y 48 horas.
+
+Se utilizan en equipos de control de calidad del aire para edificios y oficinas, son adecuados para la detección de NH3, NOx, alcohol, benceno, humo, CO2, etc.
+
+
+Este ultimo sensor es sensible en similar proporción a los gases mencionados, con lo que podemos determinar si el aire está limpio.
+
+([Fuente](http://www.naylampmechatronics.com/blog/42_Tutorial-sensores-de-gas-MQ2-MQ3-MQ7-y-MQ13.html))
 
 ### Sensor de temperatura y humedad (DHT11)
 
 ![Sensor DHT](http://domoticx.com/wp-content/uploads/DHT11-Pinout-keyes.jpg)
 
 
-## Código
+## Montaje
+
+
+![Montaje](./imagenes/Medida_Gases_bb.png)
+
+## [Código](./CalidadAire/CalidadAire.ino)
+
+
 
 ### Librerías
 
@@ -46,3 +71,6 @@ MQ135
 [Wireless gas sensing](https://create.arduino.cc/projecthub/shuo-liu/walabot-for-wireless-gas-sensing-b1fff8?ref=search&ref_id=mq135&offset=3)
 
 [Air Quality License Plate holder](https://create.arduino.cc/projecthub/air-defender/air-quality-license-plate-holder-cdb8a8)
+
+
+[Air pollution monitoring](https://circuitdigest.com/microcontroller-projects/iot-air-pollution-monitoring-using-arduino)
