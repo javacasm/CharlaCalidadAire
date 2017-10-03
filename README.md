@@ -25,6 +25,14 @@ Este ultimo sensor es sensible en similar proporción a los gases mencionados, c
 
 ([Fuente](http://www.naylampmechatronics.com/blog/42_Tutorial-sensores-de-gas-MQ2-MQ3-MQ7-y-MQ13.html))
 
+#### Valores medidos
+
+* CO2 PPM (partes por millón)
+
+* [TVOC (Valor total de compuestos orgánicos volátiles)](https://en.wikipedia.org/wiki/Volatile_organic_compound)
+
+#### [Calibración](./calibracion.md)
+
 ### Sensor de temperatura y humedad (DHT11)
 
 ![Sensor DHT](http://domoticx.com/wp-content/uploads/DHT11-Pinout-keyes.jpg)
