@@ -13,7 +13,8 @@
 
 #define PIN_SENSOR_TEMP_HUM 7
 #define PIN_SENSOR_CO2      A0
-
+#define PIN_SENSOR_CO2_2      A1
+#define PIN_SENSOR_CO2_3      A2
 
 
 /* ==== Includes - Librerias==== */
@@ -31,6 +32,7 @@
 /* ====  END Includes ==== */
 
 /* ==== Defines - Constantes ==== */
+#define PLOT
 /* ==== END Defines ==== */
 
 /* ==== Variables Globales ==== */
@@ -43,6 +45,8 @@ SimpleDHT11 dht11;
 
 // Sensor CO2
 MQ135 gasSensor = MQ135(PIN_SENSOR_CO2);
+MQ135 gasSensor2 = MQ135(PIN_SENSOR_CO2_2);
+MQ135 gasSensor3 = MQ135(PIN_SENSOR_CO2_3);
 
 int iMedidas=0;
 
@@ -90,8 +94,9 @@ void loop() {
     return;
   }
   
-
+#ifndef PLOT
   Serial.print("Temp: ");
+#endif  
   lcd.setCursor(0, 0);
   lcd.print("T:");
 
@@ -99,19 +104,26 @@ void loop() {
   Serial.print(1.0*temperatura);
   lcd.print((int)temperatura);
 
-  Serial.print("C, ");
+#ifndef PLOT
+  Serial.print("C");
+#endif   
+  Serial.print(", ");
   lcd.print("C ");
 
+#ifndef PLOT
   Serial.print("Hum:");
+#endif   
   lcd.print("Hum:");
 
 
   Serial.print(1.0*humedad);
   lcd.print((int)humedad);
+#ifndef PLOT  
   Serial.print(" %");
+#endif   
   lcd.print(" %  ");
 
-  delay(1000);  // Esperamos 1 segundo
+  
 
 // Medida de CO2
 
@@ -124,8 +136,23 @@ void loop() {
   }
 iMedidas++;
 float ppm = gasSensor.getPPM();
+#ifndef PLOT
 Serial.print(" PPM:");
+#endif 
+#ifdef PLOT
+Serial.print(", ");
+#endif 
+
+Serial.print(ppm);
+Serial.print(", ");
+ppm = gasSensor2.getPPM();
+Serial.print(ppm);
+Serial.print(", ");
+ppm = gasSensor3.getPPM();
+
 Serial.println(ppm);
+
+
 lcd.setCursor(0,1);
 lcd.print("CO2:");
 lcd.print(ppm);
@@ -133,6 +160,8 @@ lcd.print(" (");
 float ppmCorregida=gasSensor.getCorrectedPPM(temperatura,humedad);
 lcd.print(ppmCorregida);
 lcd.print(") ");
+
+delay(200);  // Esperamos 1 segundo
 }
 /* ==== End Loop ==== */
 
