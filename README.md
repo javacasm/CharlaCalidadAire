@@ -42,7 +42,7 @@ Este ultimo sensor es sensible en similar proporción a los gases mencionados, c
 ![Sensor DHT](http://domoticx.com/wp-content/uploads/DHT11-Pinout-keyes.jpg)
 
 
-## Montaje
+## [Montaje](./Montaje.md)
 
 
 ![Montaje](./imagenes/Medida_Gases_bb.png)
