@@ -142,12 +142,12 @@ Serial.print(" PPM:");
 Serial.print(", ");
 #endif 
 
-Serial.println(int(ppm));
+Serial.println(ppm);
 
 
 lcd.setCursor(0,1);
 lcd.print("CO2:");
-lcd.print(int(ppm));
+lcd.print(ppm);
 lcd.print("(");
 lcd.print(int(rzero));
 lcd.print(") ");
