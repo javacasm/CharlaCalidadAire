@@ -29,19 +29,7 @@ En parte técnica, en parte humana
 * Masiva
 * Comunicada
 
-### Open Hardware
-
-* Arduino
-* Raspberry
-
-### Open Software
-
-* Linux
-* Android
-
-###  Open Data
-
-¿De todo?
+## Calidad del aire
 
 [La EU tiene directivas a que obligan a que los datos de calidad(http://www.i-ambiente.es/?q=blogs/smart-cities-y-medio-ambiente-calidad-del-aire-i) del aire de nuestras ciudades sean públicos]
 
@@ -59,6 +47,23 @@ En parte técnica, en parte humana
 ![Libelium](https://static.esmartcity.es/media/2016/12/cci2-smart-cities-2-0-reto-de-interoperabilidad-para-democratizacion-figura-1-libelium-smart-world.jpg)
 
 [Smart Cities 2.0: El Reto de la Interoperabilidad para la democratización](https://www.esmartcity.es/comunicaciones/smart-cities-2-0-reto-interoperabilidad-democratizacion)
+
+## ¿qué tipo de solución queremos?
+
+### Open Hardware
+
+* Arduino
+* Raspberry
+
+### Open Software
+
+* Linux
+* Android
+
+###  Open Data
+
+¿De todo?
+
 
 ## Referencias
 
