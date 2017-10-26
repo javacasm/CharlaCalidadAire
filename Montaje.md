@@ -81,7 +81,7 @@ Conectamos el LCD
 
 ## Programación
 
-[Código](./CalidadAire/CalidadAire.ino)
+[Código](./CalidadAire/)
 
 * Conectamos con el cable USB al ordenador
 * Abrimos el entorno Arduino
