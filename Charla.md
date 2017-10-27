@@ -48,6 +48,9 @@ En parte técnica, en parte humana
 
 [Smart Cities 2.0: El Reto de la Interoperabilidad para la democratización](https://www.esmartcity.es/comunicaciones/smart-cities-2-0-reto-interoperabilidad-democratizacion)
 
+
+"Un caso real que ejemplifica esto lo encontramos en la reacción de los ciudadanos ante los sistemas de detección de radiación nuclear en la ciudad japonesa de Fukushima. En aquella ocasión, fueron los propios vecinos los que, alertados y desconfiados de los sistemas de información pública, decidieron compartir los datos de radiación que registraban sus dispositivos creando un mapa abierto de niveles de riesgo."
+
 ## ¿qué tipo de solución queremos?
 
 ### Open Hardware
@@ -64,6 +67,12 @@ En parte técnica, en parte humana
 
 ¿De todo?
 
+# Recuperar el control de la tecnología
+# Recuperar el control de los datos
+# Ser creadores, no consumidores de tecnología
+
+
+## Solución:
 
 ## Referencias
 
