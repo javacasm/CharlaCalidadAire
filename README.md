@@ -18,6 +18,7 @@
 [Hay que luchar por descarbonizar la economía española](http://www.efeverde.com/noticias/descarbonizar-economia-espanola/)
 
 ![anomalías en la temperatura](http://static.naukas.com/media/2017/10/01-640x830.jpg)
+
 [Unos 3 millones de muertes al año están relacionadas con la exposición a la contaminación de aire de exteriores](http://naukas.com/2017/10/24/por-que-necesitamos-energia-nuclear/)
 
 
