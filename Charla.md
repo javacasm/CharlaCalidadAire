@@ -23,7 +23,15 @@
 
 ## ¿Qué es una Smart City?
 
-En parte técnica, en parte humana
+### En parte técnica:
+
+* Redes de sensores: temperatura, ruido, calidad del aire
+* Redes de actuadores: riego, iluminación, semáforos
+* Redes
+* Datos
+* Procesamiento
+
+### En parte humana:
 
 * Comunidad, compartir (información, datos, conocimiento, experiencias)
 * Masiva
@@ -31,7 +39,7 @@ En parte técnica, en parte humana
 
 ## Calidad del aire
 
-[La EU tiene directivas a que obligan a que los datos de calidad(http://www.i-ambiente.es/?q=blogs/smart-cities-y-medio-ambiente-calidad-del-aire-i) del aire de nuestras ciudades sean públicos]
+[La EU tiene directivas a que obligan a que los datos de calidad](http://www.i-ambiente.es/?q=blogs/smart-cities-y-medio-ambiente-calidad-del-aire-i) del aire de nuestras ciudades sean públicos]
 
 ![Madrid](http://www.i-ambiente.es/sites/default/files/Image1.JPG)
 
@@ -42,16 +50,24 @@ En parte técnica, en parte humana
 
 ### ¿cómo podemos hacerlo
 
-[Libelium](http://www.libelium.com/libeliumworld/smart_cities/)
-
 ![Libelium](https://static.esmartcity.es/media/2016/12/cci2-smart-cities-2-0-reto-de-interoperabilidad-para-democratizacion-figura-1-libelium-smart-world.jpg)
 
-[Smart Cities 2.0: El Reto de la Interoperabilidad para la democratización](https://www.esmartcity.es/comunicaciones/smart-cities-2-0-reto-interoperabilidad-democratizacion)
+[Libelium](http://www.libelium.com/libeliumworld/smart_cities/)
 
 
-"Un caso real que ejemplifica esto lo encontramos en la reacción de los ciudadanos ante los sistemas de detección de radiación nuclear en la ciudad japonesa de Fukushima. En aquella ocasión, fueron los propios vecinos los que, alertados y desconfiados de los sistemas de información pública, decidieron compartir los datos de radiación que registraban sus dispositivos creando un mapa abierto de niveles de riesgo."
+#### Un caso real: radiación nuclear:Fukushima.
+
+Los propios vecinos los que, alertados y desconfiados de los sistemas de información pública, decidieron compartir los datos de radiación que registraban sus dispositivos creando un mapa abierto de niveles de riesgo.
 
 ## ¿qué tipo de solución queremos?
+
+## ¿Una caja negra cerrada?
+
+# Recuperar el control de la tecnología
+# Recuperar el control de los datos
+# Ser creadores, no consumidores de tecnología
+
+## [Solución](./Propuesta.md)
 
 ### Open Hardware
 
@@ -60,20 +76,18 @@ En parte técnica, en parte humana
 
 ### Open Software
 
+* Códido abierto
 * Linux
-* Android
 
 ###  Open Data
 
+* Transparencia
+* Seguridad
+
 ¿De todo?
-
-# Recuperar el control de la tecnología
-# Recuperar el control de los datos
-# Ser creadores, no consumidores de tecnología
-
-
-## Solución:
 
 ## Referencias
 
 http://www.i-ambiente.es/?q=blogs/smart-cities-y-medio-ambiente-calidad-del-aire-i
+
+[Smart Cities 2.0: El Reto de la Interoperabilidad para la democratización](https://www.esmartcity.es/comunicaciones/smart-cities-2-0-reto-interoperabilidad-democratizacion) https://www.esmartcity.es/comunicaciones/smart-cities-2-0-reto-interoperabilidad-democratizacion
