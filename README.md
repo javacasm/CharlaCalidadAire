@@ -48,6 +48,9 @@
 
 #### http://www.airqualitynow.eu/
 
+#### [Contaminación en Londres](http://aqicn.org/map/london/es/#@g/51.4802/-0.1806/10z)
+
+#### [Contaminación en Granada](http://aqicn.org/map/europe/es/#@g/37.164/-3.594/13z)
 
 ¿Dependemos de lo que hagan nuestros políticos?
 
