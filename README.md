@@ -7,82 +7,87 @@
 
 ![Licencia CC by SA](./imagenes/Licencia_CC.png)
 
-![montaje1](./imagenes/montaje1.jpg)
 
 
+### [25/10/2017 Madrid prohíbe aparcar de 9 a 20h ... ](http://www.20minutos.es/noticia/3168380/0/madrid-activara-manana-escenario-2-anticontaminacion-con-prohibicion-aparcar-ser-no-residentes/?utm_source=Twitter-20minutos&utm_medium=Social&utm_campaign=Postlink)
 
-## Componentes
+![madrid](http://www.efeverde.com/wp-content/blogs.dir/1/files_mf/cache/th_1cce678baa2865fe866ba90e481edd63_8108693.jpg)
 
-### Sensor de Gas MQ135
+[Según la OMS: el 92% de la población mundial vive en lugares con una calidad del aire fuera de los parámetros recomendados](http://www.who.int/mediacentre/news/releases/2016/air-pollution-estimates/es/)
 
-![MQ135](./imagenes/ma135.jpg)
+[Hay que luchar por descarbonizar la economía española](http://www.efeverde.com/noticias/descarbonizar-economia-espanola/)
 
-
-Estos sensores de gases son electroquímicos y varían su resistencia cuando se exponen a determinados gases, internamente posee un calentador encargado de aumentar la temperatura interna y con esto el sensor pueda reaccionar con los gases provocando un cambio en el valor de la resistencia.
-
-Debido al calentador es necesario esperar un tiempo de calentamiento para que la salida sea estable y tenga las características que el fabricante muestra en sus datasheet, dicho tiempo dependiendo del modelo puede ser entre 12 y 48 horas.
-
-Se utilizan en equipos de control de calidad del aire para edificios y oficinas, son adecuados para la detección de NH3, NOx, alcohol, benceno, humo, CO2, etc.
+![anomalías en la temperatura](http://static.naukas.com/media/2017/10/01-640x830.jpg)
+[Unos 3 millones de muertes al año están relacionadas con la exposición a la contaminación de aire de exteriores](http://naukas.com/2017/10/24/por-que-necesitamos-energia-nuclear/)
 
 
-Este ultimo sensor es sensible en similar proporción a los gases mencionados, con lo que podemos determinar si el aire está limpio.
+## ¿Qué es una Smart City?
 
-([Fuente](http://www.naylampmechatronics.com/blog/42_Tutorial-sensores-de-gas-MQ2-MQ3-MQ7-y-MQ13.html))
+### En parte técnica:
 
-#### Valores medidos
+* Redes de sensores: temperatura, ruido, calidad del aire
+* Redes de actuadores: riego, iluminación, semáforos
+* Redes
+* Datos
+* Procesamiento
 
-* CO2 PPM (partes por millón)
+### En parte humana:
 
-* [TVOC (Valor total de compuestos orgánicos volátiles)](https://en.wikipedia.org/wiki/Volatile_organic_compound)
+* Comunidad, compartir (información, datos, conocimiento, experiencias)
+* Masiva
+* Comunicada
 
-#### [Calibración](./calibracion.md)
+## Calidad del aire
 
-### Sensor de temperatura y humedad (DHT11)
+[La EU tiene directivas a que obligan a que los datos de calidad](http://www.i-ambiente.es/?q=blogs/smart-cities-y-medio-ambiente-calidad-del-aire-i) del aire de nuestras ciudades sean públicos]
 
-![Sensor DHT](http://domoticx.com/wp-content/uploads/DHT11-Pinout-keyes.jpg)
+![Madrid](http://www.i-ambiente.es/sites/default/files/Image1.JPG)
 
-
-## [Montaje](./Montaje.md)
-
-
-![Montaje](./imagenes/Medida_Gases_bb.png)
-
-## [Código](./CalidadAire/CalidadAire.ino)
-
-
-
-### Librerías
-
-LiquidCrystal i2C
-SimpleDHT
-MQ135
+#### http://www.airqualitynow.eu/
 
 
-### Referencias
+¿Dependemos de lo que hagan nuestros políticos?
 
-#### Medida de calidad del Aire
+### ¿cómo podemos hacerlo
 
-[The Air Quality-Life Index (AQLI)](https://aqli.epic.uchicago.edu/)
+![Libelium](https://static.esmartcity.es/media/2016/12/cci2-smart-cities-2-0-reto-de-interoperabilidad-para-democratizacion-figura-1-libelium-smart-world.jpg)
 
-#### Arduino
-
-[Librerias para MQ135](https://drive.google.com/file/d/0B9TC96icExppb2o4RWNVakM1VUE/view)
-
-[Cheap CO2 meter with MQ135](http://davidegironi.blogspot.com.es/2014/01/cheap-co2-meter-using-mq135-sensor-with.html#.WcIR9J8yqHv)
-
-[Gas sensors for Arduino](https://playground.arduino.cc/Main/MQGasSensors)
-
-[Tutorial: sensores de gas MQ2, MQ3, MQ7, MQ135](http://www.naylampmechatronics.com/blog/42_Tutorial-sensores-de-gas-MQ2-MQ3-MQ7-y-MQ13.html)
-
-[CCS811: Air Quality sensor](https://learn.sparkfun.com/tutorials/ccs811-air-quality-breakout-hookup-guide?_ga=2.185296745.1703785601.1496370918-447672577.1492205268)
-
-#### Proyectos
-
-[CO-CO2 Sensor v.2](https://create.arduino.cc/projecthub/AndriMaker98/co-co2-sensor-v-2-ea6522?ref=search&ref_id=mq135&offset=1 )
-
-[Wireless gas sensing](https://create.arduino.cc/projecthub/shuo-liu/walabot-for-wireless-gas-sensing-b1fff8?ref=search&ref_id=mq135&offset=3)
-
-[Air Quality License Plate holder](https://create.arduino.cc/projecthub/air-defender/air-quality-license-plate-holder-cdb8a8)
+[Libelium](http://www.libelium.com/libeliumworld/smart_cities/)
 
 
-[Air pollution monitoring](https://circuitdigest.com/microcontroller-projects/iot-air-pollution-monitoring-using-arduino)
+#### Un caso real: radiación nuclear:Fukushima.
+
+Los propios vecinos los que, alertados y desconfiados de los sistemas de información pública, decidieron compartir los datos de radiación que registraban sus dispositivos creando un mapa abierto de niveles de riesgo.
+
+## ¿qué tipo de solución queremos?
+
+## ¿Una caja negra cerrada?
+
+# Recuperar el control de la tecnología
+# Recuperar el control de los datos
+# Ser creadores, no consumidores de tecnología
+
+## [Solución](./Propuesta.md)
+
+### Open Hardware
+
+* Arduino
+* Raspberry
+
+### Open Software
+
+* Códido abierto
+* Linux
+
+###  Open Data
+
+* Transparencia
+* Seguridad
+
+¿De todo?
+
+## Referencias
+
+http://www.i-ambiente.es/?q=blogs/smart-cities-y-medio-ambiente-calidad-del-aire-i
+
+[Smart Cities 2.0: El Reto de la Interoperabilidad para la democratización](https://www.esmartcity.es/comunicaciones/smart-cities-2-0-reto-interoperabilidad-democratizacion) https://www.esmartcity.es/comunicaciones/smart-cities-2-0-reto-interoperabilidad-democratizacion
