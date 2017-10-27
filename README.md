@@ -13,6 +13,8 @@
 
 ![madrid](http://www.efeverde.com/wp-content/blogs.dir/1/files_mf/cache/th_1cce678baa2865fe866ba90e481edd63_8108693.jpg)
 
+![Granada](./imagenes/GranadaContamina.jpg)
+
 [Según la OMS: el 92% de la población mundial vive en lugares con una calidad del aire fuera de los parámetros recomendados](http://www.who.int/mediacentre/news/releases/2016/air-pollution-estimates/es/)
 
 [Hay que luchar por descarbonizar la economía española](http://www.efeverde.com/noticias/descarbonizar-economia-espanola/)
